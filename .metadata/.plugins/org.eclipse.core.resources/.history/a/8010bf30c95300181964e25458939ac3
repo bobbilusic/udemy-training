@@ -1,0 +1,17 @@
+package Section5;
+
+public class NegativePaymentException extends Exception {
+	
+	// Define class variable
+	double payment;
+	
+	// 1. Constructor that takes the value that would throw the exception
+	public NegativePaymentException (double payment) {
+		this.payment = payment;
+	}
+	
+	public String toString() {
+		return "Error: Cannot take negative payment $" + payment;
+	}
+
+}

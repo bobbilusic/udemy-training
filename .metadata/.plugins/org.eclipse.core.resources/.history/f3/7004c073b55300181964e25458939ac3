@@ -1,0 +1,26 @@
+package Section5;
+
+import java.util.Scanner;
+
+// PaymentsApp
+
+public class UserDefinedExceptions {
+	
+	// Take a payment from a user
+
+	public static void main(String[] args) {
+
+		// 1. Ask the user for input
+		System.out.println("Enter the payment amount: ");
+		
+		// 2. Get the amount and test the value
+		Scanner in = new Scanner(System.in);
+		
+		// 3. Handle exceptions appropriately
+		
+		// 4. Print confirmation 
+		
+
+	}
+
+}

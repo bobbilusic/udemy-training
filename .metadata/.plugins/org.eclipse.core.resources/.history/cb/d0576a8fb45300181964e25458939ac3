@@ -1,0 +1,14 @@
+package Section5;
+
+// PaymentsApp
+
+public class UserDefinedExceptions {
+	
+	// Take a payment from a user
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

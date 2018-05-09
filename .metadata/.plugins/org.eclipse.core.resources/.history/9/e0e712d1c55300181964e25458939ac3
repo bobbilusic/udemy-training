@@ -1,0 +1,15 @@
+package Section5;
+
+public class NegativePaymentException extends Exception {
+	
+	double payment;
+	
+	public NegativePaymentException (double payment) {
+		// System.out.println("ERROR: negative payment");
+	}
+	
+	public String toString() {
+		return "Error: Cannot take negative payment";
+	}
+
+}

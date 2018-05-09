@@ -1,0 +1,9 @@
+package Section5;
+
+public class NegativePaymentException extends Exception {
+	
+	public NegativePaymentException () {
+		System.out.println("ERROR: negative payment");
+	}
+
+}
